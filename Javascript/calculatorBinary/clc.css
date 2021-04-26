@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#res {
+    background-color: lightgray;
+    color: brown;
+    border: 1px solid lightgray;
+    height: 48px;
+    font-size: 20px;
+    margin: 1px;
+}
+
+#btns {
+    display: inline;
+    margin: 1px;
+}
+
+#btn0,
+#btn1 {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+#btnClr,
+#btnEql,
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+
+#btn0, 
+#btn1,
+#btnClr,
+#btnEql,
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+}       
