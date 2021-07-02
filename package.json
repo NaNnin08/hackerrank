@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "big-integer": "^1.6.48"
+    "big-integer": "^1.6.48",
+    "id-auto-increment": "^1.0.1",
+    "invoice-number": "^1.0.6"
   }
 }
